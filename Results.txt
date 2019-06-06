@@ -1,0 +1,44 @@
+model-en-fr_TP-rnn-basic_step_1250.pt
+
+Encoder = 1 Layer
+Decoder = 1
+
+
+Training 4000
+acc:  63.64; ppl:  6.25;
+
+Validation 1000
+Validation perplexity: 5.90355
+Validation accuracy: 67.8273
+
+
+Evaluation: 
+
+PRED AVG SCORE: -0.8911, PRED PPL: 2.4379
+
+================================================================================
+model-en-fr_TP-rnn-basic_step_3000.pt
+
+Evaluation: 
+
+PRED AVG SCORE: -0.7627, PRED PPL: 2.1442
+================================================================================
+model-en-fr_TP-rnn-basic_step_4500.pt
+
+PRED AVG SCORE: -0.6915, PRED PPL: 1.9967
+
+================================================================================
+model-en-fr_TP-rnn-basic_step_6000.pt
+
+PRED AVG SCORE: -0.5402, PRED PPL: 1.7164
+
+
+
+Command to Evaluate
+
+
+python translate.py -model ./data/BTEC-en-fr/models/basic2/model-en-fr_TP-rnn-basic_step_6000.pt -src ./data/BTEC-en-fr/BTEC-en-fr/test/IWSLT09_BTEC.testset.fr.clean.fr.token.txt -output ./data/BTEC-en-fr/BTEC-en-fr/test/IWSLT09_BTEC.testset.fr-EN.clean.fr-EN.token.txt
+
+
+
+

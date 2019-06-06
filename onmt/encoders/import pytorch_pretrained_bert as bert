@@ -1,0 +1,15 @@
+import pytorch_pretrained_bert as bert
+import torch
+from pytorch_pretrained_bert import BertTokenizer, BertModel 
+embeddingsModel = "bert-base-uncased" 
+device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu") 
+bert_tokenizer = BertTokenizer.from_pretrained(embeddingsModel, do_lower_case=False) 
+bert_model = BertModel.from_pretrained(embeddingsModel) 
+bert_model.to(device)
+inp = [[1, 2, 3, 4], [5, 6, 7, 8]] 
+
+tensor = torch.tensor(inp, dtype=torch.long, device=device) 
+bert_embeddings = bert_model(tensor, output_all_encoded_layers = False) 
+
+
+input_size=embeddings.embedding_size  line number 38 in rnn encoder

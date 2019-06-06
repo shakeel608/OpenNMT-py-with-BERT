@@ -1,0 +1,38 @@
+# CHEMINS
+data: data/BTEC-en-rom_data/BTEC-en-rom
+save_model: data/BTEC-en-rom_data/models/basic2/model-en-rom_TP-rnn-basic
+
+# Encoder - Decoder
+encoder_type: brnn
+enc_layers: 1
+dec_layers: 1
+
+# ATTENTION
+global_attention: mlp
+
+# BATCH
+batch_size: 16
+
+# STEPS
+save_checkpoint_steps: 10000
+train_steps: 110000
+valid_steps: 21000
+
+# GPU (à décommenter si vous voulez utiliser votre carte graphique)
+#world_size: 1
+#gpu_ranks:
+#- 0
+
+# LOG & TENSORBOARD
+report_every: 20
+log_file:  data/BTEC-en-rom_data/rnn-basic.log
+#tensorboard: 'true'
+#tensorboard_log_dir: data/BTEC-en-fr/tensorboard_log
+
+src_word_vec_size: 768
+
+#Change Embedding dimensions here or in opts.py file 
+
+learning_rate: 0.001
+
+optim: adam

@@ -1,0 +1,11 @@
+cffi
+torchvision==0.2.1
+joblib
+librosa
+Pillow
+git+https://github.com/pytorch/audio
+pyrouge
+pyonmttok
+opencv-python
+git+https://github.com/NVIDIA/apex
+flask
