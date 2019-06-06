@@ -1,4 +1,4 @@
-# OpenNMT-py: Open-Source Neural Machine Translation
+# OpenNMT-py-BERT: Open-Source Neural Machine Translation
 
 [![Build Status](https://travis-ci.org/OpenNMT/OpenNMT-py.svg?branch=master)](https://travis-ci.org/OpenNMT/OpenNMT-py)
 [![Run on FH](https://img.shields.io/badge/Run%20on-FloydHub-blue.svg)](https://floydhub.com/run?template=https://github.com/OpenNMT/OpenNMT-py)
@@ -155,16 +155,5 @@ OpentNMT-py belongs to the OpenNMT project along with OpenNMT-Lua and OpenNMT-tf
 [OpenNMT technical report](https://doi.org/10.18653/v1/P17-4012)
 
 ```
-@inproceedings{opennmt,
-  author    = {Guillaume Klein and
-               Yoon Kim and
-               Yuntian Deng and
-               Jean Senellart and
-               Alexander M. Rush},
-  title     = {Open{NMT}: Open-Source Toolkit for Neural Machine Translation},
-  booktitle = {Proc. ACL},
-  year      = {2017},
-  url       = {https://doi.org/10.18653/v1/P17-4012},
-  doi       = {10.18653/v1/P17-4012}
-}
-```
+Authors:
+Shakeel Ahmad Sheikh
