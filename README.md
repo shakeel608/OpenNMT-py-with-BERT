@@ -130,10 +130,8 @@ http://opennmt.net/Models-py/
 
 ## Acknowledgements
 
-OpenNMT-py is run as a collaborative open-source project.
-The original code was written by [Adam Lerer](http://github.com/adamlerer) (NYC) to reproduce OpenNMT-Lua using Pytorch.
-
-Major contributors are:
+This is a BERT-based version of OpenNMT-py and the implementation is based on the following:
+[OpenNMT-py] (https://github.com/OpenNMT/OpenNMT-py)
 [Sasha Rush](https://github.com/srush) (Cambridge, MA)
 [Vincent Nguyen](https://github.com/vince62s) (Ubiqus)
 [Ben Peters](http://github.com/bpopeters) (Lisbon)
@@ -146,13 +144,13 @@ Major contributors are:
 [Dylan Flaute](http://github.com/flauted (University of Dayton)
 and more !
 
-OpentNMT-py belongs to the OpenNMT project along with OpenNMT-Lua and OpenNMT-tf.
-
+<!-- OpentNMT-py belongs to the OpenNMT project along with OpenNMT-Lua and OpenNMT-tf.
+ -->
 ## Citation
 
-[OpenNMT: Neural Machine Translation Toolkit](https://arxiv.org/pdf/1805.11462)
+<!-- [OpenNMT: Neural Machine Translation Toolkit](https://arxiv.org/pdf/1805.11462)
 
-[OpenNMT technical report](https://doi.org/10.18653/v1/P17-4012)
+[OpenNMT technical report](https://doi.org/10.18653/v1/P17-4012) -->
 
 ```
 Authors:
