@@ -131,7 +131,7 @@ http://opennmt.net/Models-py/
 ## Acknowledgements
 
 This is a BERT-based version of OpenNMT-py and the implementation is based on the following:
-[OpenNMT-py] (https://github.com/OpenNMT/OpenNMT-py)
+[OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py)
 [Sasha Rush](https://github.com/srush) (Cambridge, MA)
 [Vincent Nguyen](https://github.com/vince62s) (Ubiqus)
 [Ben Peters](http://github.com/bpopeters) (Lisbon)
