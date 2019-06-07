@@ -1,9 +1,9 @@
-# OpenNMT-py-BERT: Open-Source Neural Machine Translation
+# OpenNMT-py-BERT: Open-Source Neural Machine Translation with pre-trained BERT Embeddings
 
 [![Build Status](https://travis-ci.org/OpenNMT/OpenNMT-py.svg?branch=master)](https://travis-ci.org/OpenNMT/OpenNMT-py)
 [![Run on FH](https://img.shields.io/badge/Run%20on-FloydHub-blue.svg)](https://floydhub.com/run?template=https://github.com/OpenNMT/OpenNMT-py)
 
-This is a [Pytorch](https://github.com/pytorch/pytorch)
+This is a Bert version of [Pytorch](https://github.com/pytorch/pytorch)
 port of [OpenNMT](https://github.com/OpenNMT/OpenNMT),
 an open-source (MIT) neural machine translation system. It is designed to be research friendly to try out new ideas in translation, summary, image-to-text, morphology, and many other domains. Some companies have proven the code to be production ready.
 
