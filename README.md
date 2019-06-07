@@ -132,7 +132,7 @@ http://opennmt.net/Models-py/
 
 This is a BERT-based version of OpenNMT-py and the implementation is based on the following:
 [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py)
-[Sasha Rush](https://github.com/srush) (Cambridge, MA)
+<!-- [Sasha Rush](https://github.com/srush) (Cambridge, MA)
 [Vincent Nguyen](https://github.com/vince62s) (Ubiqus)
 [Ben Peters](http://github.com/bpopeters) (Lisbon)
 [Sebastian Gehrmann](https://github.com/sebastianGehrmann) (Harvard NLP)
@@ -142,7 +142,7 @@ This is a BERT-based version of OpenNMT-py and the implementation is based on th
 [François Hernandez](https://github.com/francoishernandez) (Ubiqus)
 [Jianyu Zhan](http://github.com/jianyuzhan) (Shanghai)
 [Dylan Flaute](http://github.com/flauted (University of Dayton)
-and more !
+and more ! -->
 
 <!-- OpentNMT-py belongs to the OpenNMT project along with OpenNMT-Lua and OpenNMT-tf.
  -->
